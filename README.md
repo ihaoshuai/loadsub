@@ -1,2 +1,18 @@
-a mpv script for loading sub
-load subtitle file name like "...S01E01..." in current folder and subtitle folder
+# 一个mpv播放器的脚本
+
+### 功能
+自动加载视频文件目录下和sub目录下同一季同一集的字幕
+
+### 限制
+视频命名: ....S..E... (不区分大小写)
+默认字幕格式: srt, ass 
+默认字幕文件夹: sub
+
+### 使用方法
+将loadsub.lua存放在 mpv安装位置/portable_config/scripts 下
+
+### 修改配置
+#### 修改或增加字幕文件夹
+修改脚本或配置文件中sub_folder项
+#### 增加字幕格式
+修改脚本或配置文件中sub_ext项
